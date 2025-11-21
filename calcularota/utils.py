@@ -37,7 +37,7 @@ def endereco():
             if opcao == "s":
                 return endereco
             else:
-                print("Vamos tentar novamente.\n")
+                print("\nVamos tentar novamente.")
         else:
             print("Opção inválida. Tente novamente.\n")
             
