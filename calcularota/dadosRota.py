@@ -22,7 +22,7 @@ def get_info_rota(origem, destino):
         print(f"Erro na requisição: {response.status_code}")
     return None, None
     
-ponto_origem = "Rua Piauí, 400, Todos os Santos, RJ"
-ponto_destino = "Rua Tenório Cavalcanti, 80, Nova Iguaçu, RJ"
-distancia, duracao = get_info_rota(ponto_origem, ponto_destino)
-print(f"Distância: {distancia}, Duração: {duracao}")
+# ponto_origem = "Rua Piauí, 400, Todos os Santos, RJ"
+# ponto_destino = "Rua Tenório Cavalcanti, 80, Nova Iguaçu, RJ"
+# distancia, duracao = get_info_rota(ponto_origem, ponto_destino)
+# print(f"Distância: {distancia}, Duração: {duracao}")
